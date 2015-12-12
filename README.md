@@ -14,7 +14,7 @@ Usage
 =====
 Make sure to include this as the first middleware!
 
-Blocking Bots:
+Blocking Bots (sends 401 unauthorised):
 ```javascript
 var noBots = require('express-nobots');
 
