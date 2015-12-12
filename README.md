@@ -33,3 +33,10 @@ var noBots = require('express-nobots');
 
 app.use(noBots({block:false}));
 ```
+
+Request from a bot with block set to false:
+```javascript
+...
+req.isBot = true
+...
+```
